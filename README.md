@@ -13,14 +13,14 @@ One press of the start button runs a 7-stage sequence, then prints the change in
 
 | Stage | Device | Run time |
 | --- | --- | --- |
-| 1. Measure turbidity before | Turbidity sensor (A0) | 20 samples |
-| 2. Centrifugal pump | Relay (A2) | 11 s |
-| 3. Alum dosing | Alum pump (motor port M2) | 5 s |
-| 4. Fast mix | Mixing motor (M1), full speed | 10 s |
-| 5. Slow mix | Mixing motor (M1), reversed at lower speed | 10 s |
-| 6. Filter press | Filter press motor (M4) | 5 s |
-| 7. Clean water transfer | Clean water pump (M3) | 8 s |
-| 8. Measure turbidity after | Turbidity sensor (A1), after 1 s to settle | 20 samples |
+| Start: measure turbidity before | Turbidity sensor (A0) | 20 samples |
+| 1. Centrifugal pump | Relay (A2) | 11 s |
+| 2. Alum dosing | Alum pump (motor port M2) | 5 s |
+| 3. Fast mix | Mixing motor (M1), full speed | 10 s |
+| 4. Slow mix | Mixing motor (M1), reversed at lower speed | 10 s |
+| 5. Filter press | Filter press motor (M4) | 5 s |
+| 6. Clean water transfer | Clean water pump (M3) | 8 s |
+| 7. Measure turbidity after | Turbidity sensor (A1), after 1 s to settle | 20 samples |
 
 Short pauses between stages keep each motor or pump from overlapping with the next.
 
